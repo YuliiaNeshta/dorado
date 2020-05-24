@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	<section class="login">
+		<div class="wrapper login__wrapper">
+			<div class="content login__content">
+					<div class="container block">
+					<p class="login__title">
+						Вход
+					</p>
+					<form class="block__form form-block" data-ms="ms_2" action="#">
+						<div class="form-block__item">
+							<input autocomplete="off" type="text" name="form[]" maxlength="50" placeholder="введите емайл" data-error="Введен неверный Email"  class="input email req">
+						</div>
+						<div class="form-block__item">
+							<input autocomplete="off" type="password" name="form[]" maxlength="25" placeholder="введите пароль" data-error="Неверный пароль" class="input req">
+						</div>
+						<div class="form-block__item">
+							<button type="submit" class="form-block__btn btn">Войти</button>
+						</div>
+					</form>
+					<a href="main.html" class="login__link">Забыли пароль?</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Подключение скриптов -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

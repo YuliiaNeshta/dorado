@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="login">
+		<div class="wrapper login__wrapper">
+			<div class="content login__content">
+					<div class="container registration">
+					<p class="login__title">
+						Регистрация
+					</p>
+					<form class="registration__form form-registration" data-ms="ms_1" action="#">
+						<div class="form-registration__item">
+							<input autocomplete="off" type="text" name="form[]" maxlength="50"  placeholder="введите емайл" data-error="Введен неверный Email" class="input email req">
+						</div>
+						<div class="form-registration__item">
+							<input autocomplete="off" type="password" name="form[]" maxlength="25"  placeholder="введите пароль" class="input req">
+						</div>
+						<div class="form-registration__item">
+							<input autocomplete="off" type="password" name="form[]" maxlength="25" placeholder="введите пароль еще раз" class="input req">
+						</div>
+						<div class="form-registration__item">
+							<button type="submit" class="form-registration__btn btn">Поехали!</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Подключение скриптов -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./intl-tel-input-master/build/css/intlTelInput.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="main settings">
+		<div class="wrapper">
+			<div class="content">	
+				<div class='container password'>
+					<div class="password__wrapper">
+						<p class="password__title">
+							сменить пароль
+						</p>
+						<form class="password__form form-password" data-ms="ms_4" action="#">
+							<div class="form-password__item">
+									<input autocomplete="off" type="password" name="form[]" maxlength="25"  placeholder="старый пароль"  class="input  password__input req">
+									</div>
+									<div class="form-password__item">
+										<input autocomplete="off" type="password" name="form[]" maxlength="25"  placeholder="новый пароль" class="input password__input  req">
+									</div>
+									<div class="form-password__item">
+										<input autocomplete="off" type="password" name="form[]" maxlength="25" placeholder="новый пароль еще раз" class="input password__input req">
+									</div>
+									<div class="form-password__item">
+									<button type="submit" class="form-password__btn btn">сменить</button>
+							</div>
+						</form>
+					</div>
+					<div class="password__wrapper">
+						<p class="password__title">
+							телефон для вывода
+						</p>
+						<div class="password__links">
+							<form class="password__form form-password" data-ms="ms_5" action="#">
+								<div class="form-password__item">
+										<input  class="input password__input" type="tel"  placeholder="введите номер телефона" id="home">
+								</div>
+								<button type="submit" class="form-password__btn btn">Сохранить</button>
+							</form>
+						</div>
+					</div>
+					<div class="password__wrapper">
+						<p class="password__title">
+							киви кошелек
+						</p>
+						<div class="password__links">
+							<form class="password__form form-password" data-ms="ms_5" action="#">
+								<div class="form-password__item">
+										<input  class="input password__input" type="tel" placeholder="введите номер киви кошелька" id="mobile">
+								</div>
+								<button type="submit" class="form-password__btn btn">Сохранить</button>
+							</form>
+						</div>
+					</div>
+					<div class="password__wrapper">
+						<p class="password__title">
+							wmz кошелек
+						</p>
+						<div class="password__links">
+							<form class="password__form form-password" data-ms="ms_5" action="#">
+								<div class="form-password__item">
+									<input class="input password__input" autocomplete="off" type="text" name="form[]"  placeholder="введите номер кошелька" >
+								</div>
+								<button type="submit" class="form-password__btn btn">Сохранить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+					<div class="footer__menu">
+						<ul class="footer__list">
+						<a href="main.html" class="footer__link"><li class="footer__info">Главная</li></a>
+						<a href="partner.html" class="footer__link"><li class="footer__info footer__info_border">партнерка</li></a>
+						<a href="#" class="footer__link"><li class="footer__info active">Настройки</li></a>
+						</ul>
+					</div>
+			</footer>
+		</div>
+	</section>
+
+	<!-- Подключение скриптов -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="intl-tel-input-master/build/js/intlTelInput.js"></script>
+	<script src="./js/main.js"></script>
+
+	
+</body>
+</html>
